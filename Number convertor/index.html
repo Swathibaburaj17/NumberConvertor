@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converting website</title>
+    
+    <link rel="stylesheet" href="convert.css">
+    
+</head>
+<body>
+   
+<div class="box">
+    <p id="one"></p>
+    <h2 font-color="white">NUMBER CONVERTOR</h2>
+    <br>
+    <br>
+    <form>
+<b>Enter your Number</b>
+<input type="text" id="field1" size="25" value="" /><br><br>
+</form>
+
+<br>
+<br>
+<button onclick="Binaryconversion()">Click here If Number is Binary</button>
+<ul>
+  <br>
+    <b>Octal :</b>  <input type="text" id="ans1" value="" size="15" onkeyup="Binaryconversion()" /><br><br>
+    <b>HexaDecimal :</b>  <input type="text" id="ans2" value="" size="15" onkeyup="Binaryconversion()"/><br><br>
+    <b>Decimal :</b>  <input type="text" id="ans3" value="" size="15" onkeyup="Binaryconversion()" /><br>
+  
+   <br>
+<button onclick="Octalconversion()">Click here If Number is Octal</button>
+<ul>
+  <br>
+  <b>Binary  :</b>  <input type="text" id="ans4" value="" size="15" onkeyup="Octalconversion()" /><br><br>
+  <b>Decimal  :</b>  <input type="text" id="ans5" value="" size="15" onkeyup="Octalconversion()"/><br><br>
+  <b>HexaDecimal :</b>  <input type="text" id="ans6" value=""  size="15" onkeyup="Octalconversion()"/><br>
+ 
+</ul>
+<br>
+<button onclick="Hexadecimalconversion()">Click here If Number is Hexadecimal</button></a>
+<ul>
+  <br>
+  <b>Binary :</b>  <input type="text" id="ans7" value="" size="15" onkeyup="Hexadecimalconversion()" /><br><br>
+  <b>octal :</b>  <input type="text" id="ans8" value="" size="15" onkeyup="Hexadecimalconversion()"/><br><br>
+  <b>Decimal :</b>  <input type="text" id="ans9" value="" size="15" onkeyup="Hexadecimalconversion()"/><br>
+</ul>
+<br>
+<button onclick="Decimalconversion()">Click here If Number is decimal</button>
+
+<ul>
+  <br>
+  <b>Octal :</b>  <input type="text" id="ans10" value="" size="15" onkeyup="Decimalconversion()" /><br><br>
+  <b>HexaDecimal :</b>  <input type="text" id="ans11" value="" size="15" onkeyup="Decimalconversion()"/><br><br>
+  <b>Binary :</b>  <input type="text" id="ans12" value=""  size="15" onkeyup="Decimalconversion()"/><br>
+</ul>
+   <br>
+   <br>
+   <h2>To find LCM of 2 numbers</h2>
+   <br>
+  <ul>
+    <b>Number 1:</b><input type="text" size="25"value="" id="n1" /><br>
+    <br>
+    <b>Number 2:</b><input type="text" size="25" value="" id="n2"/><br>
+    <br>
+   <b>Result:</b>  <input type="text" value="" size="20" value="" id="ans13" onkeyup="lcm()"/>
+  </ul>
+  <br>
+  <br>
+  <button onclick="lcm()">Click to get the LCM</button>
+</div>
+    <br>
+    <br>
+   <b><p>&copy;2020| Designed by SwathiBaburaj</p></b>
+<script src="convert.js">
+
+</script>
+<script src="lcm.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
